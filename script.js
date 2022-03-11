@@ -16,6 +16,6 @@ const a = prompt('Один из последних просмотренных ф
 
 
 perconalMovieDB.movies[a] = b;
-perconalMovieDB.movies[c] = d;
+perconalMovieDB.movies[a] = d;
 
 console.log(perconalMovieDB);
