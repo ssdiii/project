@@ -1,22 +1,40 @@
 "use strict";
 
-let num = 50;
+let nam = 20;
 
-//while (num <= 55) {
-//    console.log(num);
-//    num++;
-//}
-
-//do {
-//    console.log(num);
-//    num++;
-//}
-//while (num < 55);
-
-for (let i = 1; i < 10; i++) {
-    if (i === 6) {
-        //break;
-        continue;
-    }
-    console.log(i);
+function showFirstMassage(text) {
+    console.log(text);
+    console.log(nam)
 }
+
+showFirstMassage("hello world");
+console.log(nam);
+
+function calc(a, b) {
+    return (a + b);
+}
+console.log(calc(4, 3));
+console.log(calc(5, 6));
+console.log(calc(10, 6));
+
+
+function ret() {
+    let nam = 50;
+
+
+
+    //
+
+
+    return nam;
+}
+const anoherNum = ret();
+console.log(anoherNum);
+
+
+
+const logger = function() {
+    console.log("hello");
+};
+
+logger();
